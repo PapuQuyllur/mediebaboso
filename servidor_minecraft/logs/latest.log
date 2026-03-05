@@ -1,0 +1,461 @@
+[04Mar2026 21:19:29.915] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.16, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[04Mar2026 21:19:29.925] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.18 by Ubuntu; OS Linux arch amd64 version 6.8.0-1044-azure
+[04Mar2026 21:19:31.978] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[04Mar2026 21:19:32.111] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/mediebaboso/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[04Mar2026 21:19:32.666] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mediebaboso/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.16/fmlcore-1.20.1-47.4.16.jar is missing mods.toml file
+[04Mar2026 21:19:32.669] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mediebaboso/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.16/javafmllanguage-1.20.1-47.4.16.jar is missing mods.toml file
+[04Mar2026 21:19:32.670] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mediebaboso/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.16/lowcodelanguage-1.20.1-47.4.16.jar is missing mods.toml file
+[04Mar2026 21:19:32.672] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mediebaboso/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.16/mclanguage-1.20.1-47.4.16.jar is missing mods.toml file
+[04Mar2026 21:19:33.270] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[04Mar2026 21:19:33.272] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 21 dependencies adding them to mods collection
+[04Mar2026 21:19:39.042] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[04Mar2026 21:19:39.126] [main/ERROR] [mixin/]: Mixin config fabric-data-attachment-api-v1.mixins.json does not specify "minVersion" property
+[04Mar2026 21:19:39.129] [main/ERROR] [mixin/]: Mixin config fabric-data-attachment-api-v1.client.mixins.json does not specify "minVersion" property
+[04Mar2026 21:19:39.141] [main/ERROR] [mixin/]: Mixin config antixray.common.mixins.json does not specify "minVersion" property
+[04Mar2026 21:19:39.143] [main/ERROR] [mixin/]: Mixin config antixray.forge.mixins.json does not specify "minVersion" property
+[04Mar2026 21:19:39.374] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[04Mar2026 21:19:39.641] [main/INFO] [Radium Config/]: Loaded configuration file for Radium: 125 options available, 1 override(s) found
+[04Mar2026 21:19:39.854] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.26.2+mc1.20.1: 98 options available, 0 override(s) found
+[04Mar2026 21:19:39.858] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[04Mar2026 21:19:39.888] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[04Mar2026 21:19:40.114] [main/WARN] [mixin/]: Reference map 'puzzlesaccessapi.common.refmap.json' for puzzlesaccessapi.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Mar2026 21:19:40.127] [main/WARN] [mixin/]: Reference map 'handcrafted-forge-1.20.1-forge-refmap.json' for handcrafted.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Mar2026 21:19:40.206] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Mar2026 21:19:40.318] [main/INFO] [Puzzles Lib/]: Loading 68 mods:
+	- accessories 1.0.0-beta48+1.20.1
+		|-- fabric_api_base 0.4.31+ef105b4977
+		|-- fabric_data_attachment_api_v1 1.0.0+30ef839e77
+		|-- fabric_entity_events_v1 1.6.0+6274ab9d77
+		\-- fabric_object_builder_api_v1 11.1.3+2174fc8477
+	- aether 1.20.1-1.5.2-neoforge
+		|-- cumulus_menus 1.20.1-1.0.1-neoforge
+		|-- curios 5.6.1+1.20.1
+		\-- nitrogen_internals 1.20.1-1.0.12-neoforge
+	- aiimprovements 0.5.2
+	- antixray 1.4.6
+	- baguettelib 1.1.6
+	- carryon 2.1.2.7
+	- chisel 1.1.9
+		\-- mixinextras 0.4.1
+	- cloth_config 11.1.136
+	- clumps 12.0.0.4
+	- coroutil 1.20.1-1.3.7
+	- cristellib 1.1.6
+	- ctm 1.20.1-1.1.10
+	- customskinloader 14.27
+	- disenchanting 2.2.3
+	- dodo 0.21
+	- dontcuttripwire 0.0.2
+	- dungeons_arise 2.1.58-1.20.x
+	- dynamictrees 1.20.1-1.4.9
+	- ebwizardry 1.0.0-alpha.1.6.20
+	- fastbench 8.0.4
+	- ferritecore 6.0.1
+	- forge 47.4.16
+	- fusion 1.2.11+c
+	- gravestone 1.20.1-1.0.35
+	- handcrafted 3.0.6
+	- immersive_paintings 0.6.8+1.20.1
+	- ironchest 1.20.1-14.4.4
+	- jei 15.20.0.129
+	- libx 1.20.1-5.0.12
+	- makekisses 1.20.1-1.0.0
+	- mcwfences 1.2.1
+	- mcwwindows 2.4.2
+	- minecraft 1.20.1
+	- modernfix 5.26.2+mc1.20.1
+	- mutantmonsters 8.0.8
+	- placebo 8.6.3
+	- puzzleslib 8.1.33
+		\-- puzzlesaccessapi 20.1.1
+	- radium 0.12.4+git.26c9d8e
+	- randomenchants2 7.1.1
+	- recruits 1.14.2.3
+	- resourcefullib 2.1.29
+	- siegeweapons 0.2.2
+	- simplytools 1.20.1-2.0.8
+	- smallships 2.0.0-b1.4
+	- sophisticatedbackpacks 3.24.24.1538
+	- sophisticatedcore 1.3.5.1505
+	- spartanshields 3.1.1
+	- spartanweaponry 3.2.1
+	- storagedrawers 12.14.3
+	- strawstatues 8.0.3
+		\-- puzzlesapi 8.1.4
+	- t_and_t 0.0NONE
+	- walljump 1.20.1-1.3.5-forge
+		\-- configlibtxf 4.2.8-forge
+	- watut 1.20.1-1.2.3
+	- workers 1.7.9.1
+	- xaerominimap 25.3.5
+		\-- xaerolib 1.0.45
+	- xpbook 2.2.1
+[04Mar2026 21:19:40.338] [main/WARN] [mixin/]: Reference map 'nitrogen_internals.refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Mar2026 21:19:40.359] [main/WARN] [mixin/]: Reference map 'smallships-forge-refmap.json' for smallships.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Mar2026 21:19:40.388] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Mar2026 21:19:40.468] [main/WARN] [Radium Config/]: Force-disabling mixin 'alloc.blockstate.StateMixin' as option 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[04Mar2026 21:19:42.170] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[04Mar2026 21:19:42.190] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[04Mar2026 21:19:42.345] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/item/ItemProperties for invalid dist DEDICATED_SERVER
+[04Mar2026 21:19:42.346] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/item/ItemProperties (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/item/ItemProperties for invalid dist DEDICATED_SERVER)
+[04Mar2026 21:19:42.346] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.item.ItemProperties was not found ebwizardry.mixins.json:accessor.ItemPropertiesAccessor
+[04Mar2026 21:19:42.514] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/resources/model/ModelBakery$ModelBakerImpl for invalid dist DEDICATED_SERVER
+[04Mar2026 21:19:42.515] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/resources/model/ModelBakery$ModelBakerImpl (java.lang.RuntimeException: Attempted to load class net/minecraft/client/resources/model/ModelBakery$ModelBakerImpl for invalid dist DEDICATED_SERVER)
+[04Mar2026 21:19:42.515] [main/WARN] [mixin/]: @Mixin target net/minecraft/client/resources/model/ModelBakery$ModelBakerImpl was not found ctm.mixins.json:TextureScrapingMixin
+[04Mar2026 21:19:42.914] [main/WARN] [mixin/]: Error loading class: vazkii/quark/addons/oddities/inventory/BackpackMenu (java.lang.ClassNotFoundException: vazkii.quark.addons.oddities.inventory.BackpackMenu)
+[04Mar2026 21:19:42.918] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/inventory/CraftingScreen (java.lang.ClassNotFoundException: net.minecraft.client.gui.screens.inventory.CraftingScreen)
+[04Mar2026 21:19:42.918] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.inventory.CraftingScreen was not found fastbench.mixins.json:MixinCraftingScreen
+[04Mar2026 21:19:43.089] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/LevelRenderer for invalid dist DEDICATED_SERVER
+[04Mar2026 21:19:43.090] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/LevelRenderer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/LevelRenderer for invalid dist DEDICATED_SERVER)
+[04Mar2026 21:19:43.090] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.LevelRenderer was not found accessories-common.mixins.json:LevelRendererAccessor
+[04Mar2026 21:19:43.761] [main/ERROR] [mixin/]: accessories-common.mixins.json:ContainerMixin: Interface mixin contains a non-public method! Found extendHasAnyMatching(Ljava/util/function/Predicate;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V in accessories-common.mixins.json:ContainerMixin
+org.spongepowered.asm.mixin.transformer.throwables.InvalidInterfaceMixinException: Interface mixin contains a non-public method! Found extendHasAnyMatching(Ljava/util/function/Predicate;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V in accessories-common.mixins.json:ContainerMixin
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorInterface.prepareMethod(MixinPreProcessorInterface.java:65) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.prepare(MixinPreProcessorStandard.java:187) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo$State.validate(MixinInfo.java:322) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo.validate(MixinInfo.java:913) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinConfig.postInitialise(MixinConfig.java:801) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.prepareConfigs(MixinProcessor.java:567) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.select(MixinProcessor.java:462) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.checkSelect(MixinProcessor.java:438) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:290) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156) ~[modlauncher-10.0.9.jar%2355!/:10.0.9+10.0.9+main.dcd20f30]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:637) ~[?:?]
+	at java.lang.Class.forName(Class.java:547) ~[?:?]
+	at net.minecraftforge.fml.loading.ImmediateWindowHandler$DummyProvider.lambda$updateModuleReads$1(ImmediateWindowHandler.java:164) ~[fmlloader-1.20.1-47.4.16.jar%2369!/:1.0]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraftforge.fml.loading.ImmediateWindowHandler$DummyProvider.updateModuleReads(ImmediateWindowHandler.java:164) ~[fmlloader-1.20.1-47.4.16.jar%2369!/:1.0]
+	at net.minecraftforge.fml.loading.ImmediateWindowHandler.acceptGameLayer(ImmediateWindowHandler.java:89) ~[fmlloader-1.20.1-47.4.16.jar%2369!/:1.0]
+	at net.minecraftforge.fml.loading.FMLLoader.beforeStart(FMLLoader.java:216) ~[fmlloader-1.20.1-47.4.16.jar%2369!/:1.0]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.launchService(CommonLaunchHandler.java:92) ~[fmlloader-1.20.1-47.4.16.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[04Mar2026 21:19:43.821] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[04Mar2026 21:19:45.124] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (19.61 s after launch)
+[04Mar2026 21:19:45.521] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-modernfix.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[04Mar2026 21:19:45.525] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-modernfix.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[04Mar2026 21:19:46.214] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[04Mar2026 21:19:46.218] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[04Mar2026 21:19:46.219] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[04Mar2026 21:19:47.228] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[04Mar2026 21:19:47.229] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[04Mar2026 21:19:48.764] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[04Mar2026 21:19:48.766] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[04Mar2026 21:19:48.837] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 3705 milliseconds
+[04Mar2026 21:19:51.891] [main/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=2 on accessories-common.mixins.json:NbtCompoundMixin::handler$bam000$adjustCheckForListVariants exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[04Mar2026 21:19:52.957] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_47505_ in modernfix-modernfix.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[04Mar2026 21:19:52.958] [main/WARN] [mixin/]: Method overwrite conflict for m_47505_ in modernfix-modernfix.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[04Mar2026 21:19:53.521] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzlesapi:iteminteractions
+[04Mar2026 21:19:53.520] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mutantmonsters:main
+[04Mar2026 21:19:53.820] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzlesapi:slotcycling
+[04Mar2026 21:19:53.831] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzlesapi:limitlesscontainers
+[04Mar2026 21:19:53.855] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzlesapi:statues
+[04Mar2026 21:19:54.088] [modloading-worker-0/INFO] [com.binaris.wizardry.api.EBLogger/]: Electroblob's Wizardry Started
+[04Mar2026 21:19:54.264] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Registering common data for channel xaerolib:main!
+[04Mar2026 21:19:54.277] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading primary common config for channel xaerolib:main!
+[04Mar2026 21:19:54.284] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading server config profiles for channel xaerolib:main!
+[04Mar2026 21:19:54.589] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for strawstatues:main
+[04Mar2026 21:19:54.764] [modloading-worker-0/INFO] [me.drex.antixray.common.AntiXray/]: Successfully initialized antixray for forge
+[04Mar2026 21:19:54.883] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
+[04Mar2026 21:19:54.981] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.16, for MC 1.20.1 with MCP 20230612.114412
+[04Mar2026 21:19:54.983] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.16 Initialized
+[04Mar2026 21:19:55.267] [modloading-worker-0/INFO] [Spartan Shields/]: Constructing Mod: Spartan Shields
+[04Mar2026 21:19:55.344] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Registering common data for channel xaerominimap:main!
+[04Mar2026 21:19:55.355] [modloading-worker-0/INFO] [workers/]: Registering POI for ResourceKey[minecraft:block / workers:miner_block]
+[04Mar2026 21:19:55.355] [modloading-worker-0/INFO] [workers/]: Registering POI for ResourceKey[minecraft:block / workers:lumberjack_block]
+[04Mar2026 21:19:55.355] [modloading-worker-0/INFO] [workers/]: Registering POI for ResourceKey[minecraft:block / workers:farmer_block]
+[04Mar2026 21:19:55.356] [modloading-worker-0/INFO] [workers/]: Registering POI for ResourceKey[minecraft:block / workers:merchant_block]
+[04Mar2026 21:19:55.356] [modloading-worker-0/INFO] [workers/]: Registering POI for ResourceKey[minecraft:block / workers:shepherd_block]
+[04Mar2026 21:19:55.356] [modloading-worker-0/INFO] [workers/]: Registering POI for ResourceKey[minecraft:block / workers:fisherman_block]
+[04Mar2026 21:19:55.356] [modloading-worker-0/INFO] [workers/]: Registering POI for ResourceKey[minecraft:block / workers:cattle_farmer_block]
+[04Mar2026 21:19:55.356] [modloading-worker-0/INFO] [workers/]: Registering POI for ResourceKey[minecraft:block / workers:chicken_farmer_block]
+[04Mar2026 21:19:55.356] [modloading-worker-0/INFO] [workers/]: Registering POI for ResourceKey[minecraft:block / workers:swineherd_block]
+[04Mar2026 21:19:55.357] [modloading-worker-0/INFO] [workers/]: Registering profession for miner with POI net.minecraftforge.registries.RegistryObject@84ce06a
+[04Mar2026 21:19:55.358] [modloading-worker-0/INFO] [workers/]: Registering profession for lumberjack with POI net.minecraftforge.registries.RegistryObject@2324e55
+[04Mar2026 21:19:55.358] [modloading-worker-0/INFO] [workers/]: Registering profession for farmer with POI net.minecraftforge.registries.RegistryObject@b5b6294e
+[04Mar2026 21:19:55.358] [modloading-worker-0/INFO] [workers/]: Registering profession for merchant with POI net.minecraftforge.registries.RegistryObject@e3fd43b3
+[04Mar2026 21:19:55.358] [modloading-worker-0/INFO] [workers/]: Registering profession for shepherd with POI net.minecraftforge.registries.RegistryObject@dc7f439a
+[04Mar2026 21:19:55.358] [modloading-worker-0/INFO] [workers/]: Registering profession for fisherman with POI net.minecraftforge.registries.RegistryObject@2b647820
+[04Mar2026 21:19:55.358] [modloading-worker-0/INFO] [workers/]: Registering profession for cattle_farmer with POI net.minecraftforge.registries.RegistryObject@2fbf1d36
+[04Mar2026 21:19:55.358] [modloading-worker-0/INFO] [workers/]: Registering profession for chicken_farmer with POI net.minecraftforge.registries.RegistryObject@8de71318
+[04Mar2026 21:19:55.358] [modloading-worker-0/INFO] [workers/]: Registering profession for swineherd with POI net.minecraftforge.registries.RegistryObject@5a68aad6
+[04Mar2026 21:19:55.417] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Loading primary common config for channel xaerominimap:main!
+[04Mar2026 21:19:55.419] [modloading-worker-0/INFO] [xaero.common.HudMod/]: Loading server config profiles for channel xaerominimap:main!
+[04Mar2026 21:19:55.441] [modloading-worker-0/INFO] [com.macaronsteam.makekisses.MakeKissesMod/]: Make Kisses Mod is loaded!
+[04Mar2026 21:19:55.664] [modloading-worker-0/INFO] [com.aetherteam.cumulus.Cumulus/]: Disabling Cumulus as it is on server.
+[04Mar2026 21:19:55.669] [modloading-worker-0/INFO] [Spartan Weaponry/]: Constructing Mod: Spartan Weaponry
+[04Mar2026 21:19:55.669] [modloading-worker-0/INFO] [Spartan Weaponry/]: Initialising API! Version: 12
+[04Mar2026 21:19:55.672] [modloading-worker-0/INFO] [Spartan Weaponry/]: Spartan Weaponry API version 12 has been initalized!
+[04Mar2026 21:19:55.858] [modloading-worker-0/INFO] [com.leclowndu93150.chisel.compat.ChiselRebornCompat/]: Initializing Chisel Reborn compatibility mappings...
+[04Mar2026 21:19:55.870] [modloading-worker-0/INFO] [com.leclowndu93150.chisel.compat.ChiselRebornCompat/]: Initialized 1312 Chisel Reborn compatibility mappings
+[04Mar2026 21:19:56.074] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[04Mar2026 21:19:56.325] [modloading-worker-0/INFO] [recruits/]: Registering POI for ResourceKey[minecraft:block / recruits:recruit_block]
+[04Mar2026 21:19:56.327] [modloading-worker-0/INFO] [recruits/]: Registering POI for ResourceKey[minecraft:block / recruits:recruit_shield_block]
+[04Mar2026 21:19:56.329] [modloading-worker-0/INFO] [recruits/]: Registering POI for ResourceKey[minecraft:block / recruits:bowman_block]
+[04Mar2026 21:19:56.335] [modloading-worker-0/INFO] [recruits/]: Registering POI for ResourceKey[minecraft:block / recruits:crossbowman_block]
+[04Mar2026 21:19:56.336] [modloading-worker-0/INFO] [recruits/]: Registering POI for ResourceKey[minecraft:block / recruits:horseman_block]
+[04Mar2026 21:19:56.338] [modloading-worker-0/INFO] [recruits/]: Registering POI for ResourceKey[minecraft:block / recruits:nomad_block]
+[04Mar2026 21:19:56.347] [modloading-worker-0/INFO] [recruits/]: Registering profession for recruit with POI net.minecraftforge.registries.RegistryObject@810c44e9
+[04Mar2026 21:19:56.348] [modloading-worker-0/INFO] [recruits/]: Registering profession for shieldman with POI net.minecraftforge.registries.RegistryObject@73a49efc
+[04Mar2026 21:19:56.350] [modloading-worker-0/INFO] [recruits/]: Registering profession for bowman with POI net.minecraftforge.registries.RegistryObject@ee1298fb
+[04Mar2026 21:19:56.350] [modloading-worker-0/INFO] [recruits/]: Registering profession for crossbowman with POI net.minecraftforge.registries.RegistryObject@278013b
+[04Mar2026 21:19:56.353] [modloading-worker-0/INFO] [recruits/]: Registering profession for horseman with POI net.minecraftforge.registries.RegistryObject@2cde3e08
+[04Mar2026 21:19:56.354] [modloading-worker-0/INFO] [recruits/]: Registering profession for nomad with POI net.minecraftforge.registries.RegistryObject@46c5f19a
+[04Mar2026 21:20:00.994] [main/INFO] [Puzzles Lib/]: Loading common config for mutantmonsters
+[04Mar2026 21:20:01.112] [main/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[04Mar2026 21:20:01.138] [main/INFO] [Spartan Weaponry/]: Updating config settings!
+[04Mar2026 21:20:01.393] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib common 1/2!
+[04Mar2026 21:20:01.686] [modloading-worker-0/INFO] [Spartan Shields/]: Setting up Spartan Shields!
+[04Mar2026 21:20:01.806] [modloading-worker-0/INFO] [workers/]: Villager Workers Messages registered
+[04Mar2026 21:20:01.826] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[04Mar2026 21:20:01.838] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.ModServices/]: New compacting rule 4 clay_ball = 1 clay
+[04Mar2026 21:20:01.838] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.ModServices/]: New compacting rule 4 snowball = 1 snow_block
+[04Mar2026 21:20:01.840] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.ModServices/]: New compacting rule 4 glowstone_dust = 1 glowstone
+[04Mar2026 21:20:01.840] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.ModServices/]: New compacting rule 4 brick = 1 bricks
+[04Mar2026 21:20:01.840] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.ModServices/]: New compacting rule 4 nether_brick = 1 nether_bricks
+[04Mar2026 21:20:01.841] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.ModServices/]: New compacting rule 9 nether_wart = 1 nether_wart_block
+[04Mar2026 21:20:01.842] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.ModServices/]: New compacting rule 4 quartz = 1 quartz_block
+[04Mar2026 21:20:01.844] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.ModServices/]: New compacting rule 9 melon_slice = 1 melon
+[04Mar2026 21:20:01.845] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.ModServices/]: New compacting rule 9 bamboo = 1 bamboo_block
+[04Mar2026 21:20:01.873] [modloading-worker-0/INFO] [Spartan Weaponry/]: Setting up Spartan Weaponry!
+[04Mar2026 21:20:01.943] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.ModServices/]: New compacting rule 4 clay_ball = 1 clay
+[04Mar2026 21:20:01.945] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.ModServices/]: New denied storage item creative_vending_upgrade
+[04Mar2026 21:20:01.954] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.ModServices/]: Adding ore conversions for types: forge:storage_blocks, forge:ingots, forge:nuggets
+[04Mar2026 21:20:01.956] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.ModServices/]: Adding ore conversions for materials: aluminum, constantan, steel, uranium, invar, tin, lead, silver, platinum, nickel, osmium, bronze, electrum
+[04Mar2026 21:20:02.003] [modloading-worker-0/INFO] [randomenchants2/]: Random Enchants 2 is initializing
+[04Mar2026 21:20:02.008] [modloading-worker-0/INFO] [randomenchants2/]: Registered 0 enchantments
+[04Mar2026 21:20:02.344] [modloading-worker-0/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib server 1/2!
+[04Mar2026 21:20:02.349] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[04Mar2026 21:20:02.372] [main/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib common 2/2!
+[04Mar2026 21:20:02.372] [main/INFO] [xaero.lib.XaeroLib/]: Loading XaeroLib server 2/2!
+[04Mar2026 21:20:02.372] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[04Mar2026 21:20:02.414] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [radium] Starting version check at https://api.modrinth.com/updates/radium/forge_updates.json
+[04Mar2026 21:20:03.005] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [radium] Found status: AHEAD Current: 0.12.4+git.26c9d8e Target: null
+[04Mar2026 21:20:03.007] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesapi.json
+[04Mar2026 21:20:03.097] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesapi] Found status: BETA Current: 8.1.4 Target: null
+[04Mar2026 21:20:03.098] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mutantmonsters] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/mutantmonsters.json
+[04Mar2026 21:20:03.113] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mutantmonsters] Found status: UP_TO_DATE Current: 8.0.8 Target: null
+[04Mar2026 21:20:03.113] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Starting version check at https://github.com/The-Aether-Team/The-Aether/raw/1.20.1-develop/update.json
+[04Mar2026 21:20:03.214] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Found status: UP_TO_DATE Current: 1.20.1-1.5.2-neoforge Target: null
+[04Mar2026 21:20:03.214] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [siegeweapons] Starting version check at https://raw.githubusercontent.com/talhanation/siegeweapons/main/update.json
+[04Mar2026 21:20:03.227] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [siegeweapons] Found status: AHEAD Current: 0.2.2 Target: null
+[04Mar2026 21:20:03.227] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwwindows] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/window.json
+[04Mar2026 21:20:03.238] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwwindows] Found status: UP_TO_DATE Current: 2.4.2 Target: null
+[04Mar2026 21:20:03.238] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
+[04Mar2026 21:20:03.546] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[04Mar2026 21:20:03.615] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 12.0.0.4 Target: 12.0.0.4
+[04Mar2026 21:20:03.618] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [strawstatues] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/strawstatues.json
+[04Mar2026 21:20:03.630] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [strawstatues] Found status: UP_TO_DATE Current: 8.0.3 Target: null
+[04Mar2026 21:20:03.630] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [libx] Starting version check at https://assets.melanx.de/updates/libx.json
+[04Mar2026 21:20:03.803] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[04Mar2026 21:20:03.833] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [libx] Found status: UP_TO_DATE Current: 1.20.1-5.0.12 Target: null
+[04Mar2026 21:20:03.833] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
+[04Mar2026 21:20:03.851] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 20.1.1 Target: null
+[04Mar2026 21:20:03.851] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[04Mar2026 21:20:03.981] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 47.4.16 Target: null
+[04Mar2026 21:20:03.982] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfences] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/fences.json
+[04Mar2026 21:20:03.997] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfences] Found status: UP_TO_DATE Current: 1.2.1 Target: null
+[04Mar2026 21:20:03.997] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://update.maxhenkel.de/forge/gravestone
+[04Mar2026 21:20:04.476] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/mediebaboso/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23209!/assets/.mcassetsroot' uses unexpected schema
+[04Mar2026 21:20:04.476] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/mediebaboso/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23209!/data/.mcassetsroot' uses unexpected schema
+[04Mar2026 21:20:04.628] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: AHEAD Current: 1.20.1-1.0.35 Target: null
+[04Mar2026 21:20:04.628] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [workers] Starting version check at https://raw.githubusercontent.com/talhanation/workers/main/update.json
+[04Mar2026 21:20:04.640] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [workers] Found status: UP_TO_DATE Current: 1.7.9.1 Target: null
+[04Mar2026 21:20:04.640] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [simplytools] Starting version check at https://assets.melanx.de/updates/simply-tools.json
+[04Mar2026 21:20:04.663] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [simplytools] Found status: UP_TO_DATE Current: 1.20.1-2.0.8 Target: null
+[04Mar2026 21:20:04.663] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Starting version check at https://github.com/The-Aether-Team/Cumulus/raw/1.20.1-develop/update.json
+[04Mar2026 21:20:04.688] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Found status: UP_TO_DATE Current: 1.20.1-1.0.1-neoforge Target: null
+[04Mar2026 21:20:04.688] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[04Mar2026 21:20:04.703] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: UP_TO_DATE Current: 8.1.33 Target: null
+[04Mar2026 21:20:04.703] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [smallships] Starting version check at https://raw.githubusercontent.com/talhanation/smallships/main/update.json
+[04Mar2026 21:20:04.714] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [smallships] Found status: UP_TO_DATE Current: 2.0.0-b1.4 Target: null
+[04Mar2026 21:20:04.714] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamictrees] Starting version check at https://github.com/DynamicTreesTeam/DynamicTreesVersionInfo/blob/master/DynamicTrees.json?raw=true
+[04Mar2026 21:20:04.764] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamictrees] Found status: BETA Current: 1.20.1-1.4.9 Target: null
+[04Mar2026 21:20:04.767] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [recruits] Starting version check at https://raw.githubusercontent.com/talhanation/recruits/main/update.json
+[04Mar2026 21:20:04.780] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [recruits] Found status: AHEAD Current: 1.14.2.3 Target: null
+[04Mar2026 21:20:08.146] [main/INFO] [Spartan Weaponry/]: Finished registering commands for Spartan Weaponry!
+[04Mar2026 21:20:09.007] [Worker-Main-1/INFO] [Spartan Weaponry/]: Adding Diamond Weapons to the End City Treasure Loot Table!
+[04Mar2026 21:20:09.089] [Worker-Main-1/INFO] [Spartan Weaponry/]: Adding Longbow and Heavy Crossbow related loot to the Village Fletcher Loot Table!
+[04Mar2026 21:20:09.267] [Worker-Main-1/INFO] [Spartan Weaponry/]: Adding Iron Weapons to the Village Weaponsmith Loot Table!
+[04Mar2026 21:20:10.159] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:dodo:entities/skeleton_dodo}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[04Mar2026 21:20:10.160] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:dodo:entities/skeleton_dodo}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[04Mar2026 21:20:10.160] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:dodo:entities/dodo}.pools[1].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[04Mar2026 21:20:10.181] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/electrum" Skipping...
+[04Mar2026 21:20:10.183] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:electrum_nugget_from_blasting_electrum_weapons as it's serializer returned null
+[04Mar2026 21:20:10.209] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/platinum" Skipping...
+[04Mar2026 21:20:10.210] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:platinum_nugget_from_smelting_platinum_weapons as it's serializer returned null
+[04Mar2026 21:20:10.238] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/aluminum" Skipping...
+[04Mar2026 21:20:10.238] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:aluminum_nugget_from_blasting_aluminum_weapons as it's serializer returned null
+[04Mar2026 21:20:10.278] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/bronze" Skipping...
+[04Mar2026 21:20:10.278] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:bronze_nugget_from_blasting_bronze_weapons as it's serializer returned null
+[04Mar2026 21:20:10.279] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/steel" Skipping...
+[04Mar2026 21:20:10.280] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:steel_nugget_from_blasting_steel_weapons as it's serializer returned null
+[04Mar2026 21:20:10.283] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/invar" Skipping...
+[04Mar2026 21:20:10.284] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:invar_nugget_from_smelting_invar_weapons as it's serializer returned null
+[04Mar2026 21:20:10.285] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/constantan" Skipping...
+[04Mar2026 21:20:10.285] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:constantan_nugget_from_smelting_constantan_weapons as it's serializer returned null
+[04Mar2026 21:20:10.309] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/nickel" Skipping...
+[04Mar2026 21:20:10.309] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:nickel_nugget_from_smelting_nickel_weapons as it's serializer returned null
+[04Mar2026 21:20:10.309] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/electrum" Skipping...
+[04Mar2026 21:20:10.311] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:electrum_nugget_from_smelting_electrum_weapons as it's serializer returned null
+[04Mar2026 21:20:10.320] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/lead" Skipping...
+[04Mar2026 21:20:10.321] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:lead_nugget_from_smelting_lead_weapons as it's serializer returned null
+[04Mar2026 21:20:10.334] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/steel" Skipping...
+[04Mar2026 21:20:10.336] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:steel_nugget_from_smelting_steel_weapons as it's serializer returned null
+[04Mar2026 21:20:10.342] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/silver" Skipping...
+[04Mar2026 21:20:10.343] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:silver_nugget_from_smelting_silver_weapons as it's serializer returned null
+[04Mar2026 21:20:10.351] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/copper" Skipping...
+[04Mar2026 21:20:10.353] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:copper_nugget_from_blasting_copper_weapons as it's serializer returned null
+[04Mar2026 21:20:10.355] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/platinum" Skipping...
+[04Mar2026 21:20:10.355] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:platinum_nugget_from_blasting_platinum_weapons as it's serializer returned null
+[04Mar2026 21:20:10.355] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/constantan" Skipping...
+[04Mar2026 21:20:10.356] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:constantan_nugget_from_blasting_constantan_weapons as it's serializer returned null
+[04Mar2026 21:20:10.365] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/lead" Skipping...
+[04Mar2026 21:20:10.367] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:lead_nugget_from_blasting_lead_weapons as it's serializer returned null
+[04Mar2026 21:20:10.372] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/bronze" Skipping...
+[04Mar2026 21:20:10.373] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:bronze_nugget_from_smelting_bronze_weapons as it's serializer returned null
+[04Mar2026 21:20:10.375] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/copper" Skipping...
+[04Mar2026 21:20:10.376] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:copper_nugget_from_smelting_copper_weapons as it's serializer returned null
+[04Mar2026 21:20:10.378] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/tin" Skipping...
+[04Mar2026 21:20:10.378] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:tin_nugget_from_smelting_tin_weapons as it's serializer returned null
+[04Mar2026 21:20:10.403] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/nickel" Skipping...
+[04Mar2026 21:20:10.404] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:nickel_nugget_from_blasting_nickel_weapons as it's serializer returned null
+[04Mar2026 21:20:10.407] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/invar" Skipping...
+[04Mar2026 21:20:10.408] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:invar_nugget_from_blasting_invar_weapons as it's serializer returned null
+[04Mar2026 21:20:10.418] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/tin" Skipping...
+[04Mar2026 21:20:10.419] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:tin_nugget_from_blasting_tin_weapons as it's serializer returned null
+[04Mar2026 21:20:10.427] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dynamictrees:guide: com.google.gson.JsonSyntaxException: Missing conditions, expected to find a JsonArray
+[04Mar2026 21:20:10.428] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/aluminum" Skipping...
+[04Mar2026 21:20:10.429] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:aluminum_nugget_from_smelting_aluminum_weapons as it's serializer returned null
+[04Mar2026 21:20:10.429] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/silver" Skipping...
+[04Mar2026 21:20:10.430] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:silver_nugget_from_blasting_silver_weapons as it's serializer returned null
+[04Mar2026 21:20:10.441] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 19 recipes
+[04Mar2026 21:20:10.502] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_tower_shield: Unknown item id 'mekanism:energy_tablet'
+[04Mar2026 21:20:10.527] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_basic_shield: Unknown item id 'enderio:octadic_capacitor'
+[04Mar2026 21:20:10.609] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_tower_shield: Unknown item id 'enderio:octadic_capacitor'
+[04Mar2026 21:20:10.636] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_basic_shield: Unknown item id 'mekanism:energy_tablet'
+[04Mar2026 21:20:10.726] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3039 advancements
+[04Mar2026 21:20:10.734] [main/INFO] [placebo/]: Registered 0 additional recipes.
+[04Mar2026 21:20:10.779] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 16 curio slots
+[04Mar2026 21:20:10.783] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 9 curio entities
+[04Mar2026 21:20:11.000] [main/INFO] [placebo/]: Registered 0 gear_sets.
+[04Mar2026 21:20:11.134] [main/INFO] [Spartan Weaponry/]: Finished initialising Weapon Traits & Attributes! Took 10.272925ms
+[04Mar2026 21:20:11.137] [main/WARN] [ModernFix/]: Initial datapack load took 6.601 s
+[04Mar2026 21:20:11.366] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[04Mar2026 21:20:11.367] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[04Mar2026 21:20:11.370] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[04Mar2026 21:20:11.370] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[04Mar2026 21:20:11.768] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[04Mar2026 21:20:11.877] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[04Mar2026 21:20:12.125] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04Mar2026 21:20:12.126] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[04Mar2026 21:20:12.127] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[04Mar2026 21:20:12.128] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[04Mar2026 21:20:12.182] [Server thread/INFO] [Puzzles Lib/]: Loading server config for mutantmonsters
+[04Mar2026 21:20:12.191] [Server thread/INFO] [Puzzles Lib/]: Loading server config for puzzlesapi
+[04Mar2026 21:20:12.426] [Server thread/ERROR] [mixin/]: Injection error: LVT in net/minecraft/world/entity/npc/VillagerTrades$EmeraldsForVillagerTypeItem::m_213663_(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/util/RandomSource;)Lnet/minecraft/world/item/trading/MerchantOffer; has incompatible changes at opcode 34 in callback fabric-object-builder-v1.mixins.json:TradeOffersTypeAwareBuyForOneEmeraldFactoryMixin->@Inject::failOnNullItem(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/util/RandomSource;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/minecraft/world/item/ItemStack;)V.
+ Expected: [Lnet/minecraft/world/item/ItemStack;]
+    Found: [Lnet/minecraft/world/item/Item;]
+Available: [Lnet/minecraft/world/item/Item;, Lnet/minecraft/world/item/ItemStack;]
+[04Mar2026 21:20:12.466] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[04Mar2026 21:20:18.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[04Mar2026 21:20:18.903] [Server thread/WARN] [mixin/]: Method overwrite conflict for removeIf in modernfix-modernfix.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin, previously written by me.jellysquid.mods.lithium.mixin.world.chunk_tickets.SortedArraySetMixin. Skipping method.
+[04Mar2026 21:20:22.666] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Mar2026 21:20:22.667] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Mar2026 21:20:22.667] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Mar2026 21:20:22.668] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Mar2026 21:20:22.668] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Mar2026 21:20:22.669] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Mar2026 21:20:22.669] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Mar2026 21:20:22.669] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Mar2026 21:20:22.899] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Mar2026 21:20:23.824] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4928 ms
+[04Mar2026 21:20:23.825] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (11.665s)! For help, type "help"
+[04Mar2026 21:20:23.903] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[04Mar2026 21:20:23.928] [Server thread/WARN] [ModernFix/]: Dedicated server took 58.421 seconds to load
+[04Mar2026 21:23:40.289] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[04Mar2026 21:23:40.944] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: endrxlol[/127.239.30.83:49143] logged in with entity id 131 at (326.0266620306344, 63.0, -1128.2760465039034)
+[04Mar2026 21:23:41.315] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player endrxlol
+[04Mar2026 21:23:41.422] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: endrxlol joined the game
+[04Mar2026 21:23:41.641] [Server thread/INFO] [com.binaris.wizardry.api.EBLogger/]: Synchronising spell glyph data for endrxlol
+[04Mar2026 21:23:42.730] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2350ms or 47 ticks behind
+[04Mar2026 21:49:09.549] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: endrxlol was slain by Mutant Skeleton
+[04Mar2026 21:49:09.563] [Server thread/INFO] [gravestone/]: The death ID of player endrxlol is 6f5eaaa1-4ab5-4895-9f4b-8dff0689fb77
+[04Mar2026 21:58:49.825] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: endrxlol moved too quickly! 8.67030237440025,-5.250883998490593,0.5228176118221199
+[04Mar2026 22:03:16.171] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundContainerClickPacket@d378dd4, suppressing error
+java.lang.IndexOutOfBoundsException: Index 25 out of bounds for length 25
+	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[?:?]
+	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[?:?]
+	at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[?:?]
+	at java.util.Objects.checkIndex(Objects.java:361) ~[?:?]
+	at java.util.ArrayList.set(ArrayList.java:441) ~[?:?]
+	at net.minecraft.core.NonNullList.set(NonNullList.java:54) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.p3pp3rf1y.sophisticatedcore.common.gui.StorageContainerMenuBase.m_182414_(StorageContainerMenuBase.java:1001) ~[sophisticatedcore-1.20.1-1.3.5.1505.jar%23197!/:1.20.1-1.3.5.1505]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_5914_(ServerGamePacketListenerImpl.java:1557) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.m_5797_(ServerboundContainerClickPacket.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.network.protocol.game.ServerboundContainerClickPacket.m_5797_(ServerboundContainerClickPacket.java:12) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.server.MinecraftServer.mixinextras$bridge$m_18701_$237(MinecraftServer.java) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.server.MinecraftServer.wrapOperation$zlc000$managedBlock(MinecraftServer.java:1856) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[04Mar2026 22:11:23.777] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: endrxlol has made the advancement [That Backfired]
+[04Mar2026 22:15:12.538] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['endrxlol's Zombie Minion'/9407, l='ServerLevel[world]', x=291.95, y=64.00, z=-1134.79] died: death.attack.wizardry_sorcery
+[04Mar2026 22:15:17.036] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['endrxlol's Zombie Minion'/9413, l='ServerLevel[world]', x=295.95, y=64.00, z=-1131.04] died: endrxlol's Zombie Minion burned to death
+[04Mar2026 22:15:19.635] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['endrxlol's Zombie Minion'/9415, l='ServerLevel[world]', x=292.80, y=64.00, z=-1137.43] died: endrxlol's Zombie Minion burned to death
+[04Mar2026 22:15:22.936] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['endrxlol's Zombie Minion'/9422, l='ServerLevel[world]', x=299.48, y=64.00, z=-1135.52] died: endrxlol's Zombie Minion burned to death
+[04Mar2026 22:15:25.686] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['endrxlol's Zombie Minion'/9424, l='ServerLevel[world]', x=286.73, y=64.88, z=-1140.30] died: endrxlol's Zombie Minion burned to death
+[04Mar2026 22:15:27.735] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['endrxlol's Zombie Minion'/9433, l='ServerLevel[world]', x=291.78, y=64.00, z=-1137.48] died: endrxlol's Zombie Minion burned to death
+[04Mar2026 22:15:35.006] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['endrxlol's Zombie Minion'/9435, l='ServerLevel[world]', x=296.75, y=64.00, z=-1133.27] died: endrxlol's Zombie Minion burned to death
+[04Mar2026 22:15:35.007] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['endrxlol's Zombie Minion'/9448, l='ServerLevel[world]', x=298.46, y=64.88, z=-1141.46] died: endrxlol's Zombie Minion burned to death
+[04Mar2026 22:15:35.535] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['endrxlol's Zombie Minion'/9457, l='ServerLevel[world]', x=289.53, y=64.00, z=-1135.54] died: endrxlol's Zombie Minion burned to death
+[04Mar2026 22:19:42.635] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['endrxlol's Zombie Minion'/10031, l='ServerLevel[world]', x=279.73, y=64.00, z=-1121.65] died: endrxlol's Zombie Minion burned to death
+[04Mar2026 22:19:43.935] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['endrxlol's Zombie Minion'/10043, l='ServerLevel[world]', x=279.89, y=64.00, z=-1127.59] died: endrxlol's Zombie Minion burned to death
+[04Mar2026 22:19:44.741] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['endrxlol's Zombie Minion'/10032, l='ServerLevel[world]', x=288.49, y=64.00, z=-1127.51] died: endrxlol's Zombie Minion burned to death
+[04Mar2026 22:19:50.139] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['endrxlol's Zombie Minion'/10054, l='ServerLevel[world]', x=284.46, y=64.00, z=-1125.54] died: endrxlol's Zombie Minion burned to death
+[04Mar2026 22:19:50.286] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['endrxlol's Zombie Minion'/10053, l='ServerLevel[world]', x=281.73, y=64.00, z=-1136.27] died: endrxlol's Zombie Minion burned to death
+[04Mar2026 22:19:53.387] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['endrxlol's Zombie Minion'/10055, l='ServerLevel[world]', x=272.89, y=64.00, z=-1131.50] died: endrxlol's Zombie Minion burned to death
+[04Mar2026 22:19:54.988] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['endrxlol's Zombie Minion'/10060, l='ServerLevel[world]', x=284.15, y=64.00, z=-1129.15] died: endrxlol's Zombie Minion burned to death
+[04Mar2026 22:19:56.136] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['endrxlol's Zombie Minion'/10059, l='ServerLevel[world]', x=279.14, y=64.00, z=-1129.04] died: endrxlol's Zombie Minion burned to death
+[04Mar2026 22:19:57.596] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['endrxlol's Zombie Minion'/10061, l='ServerLevel[world]', x=281.47, y=64.00, z=-1127.50] died: endrxlol's Zombie Minion burned to death
+[04Mar2026 22:20:00.987] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['endrxlol's Zombie Minion'/10064, l='ServerLevel[world]', x=288.38, y=64.00, z=-1134.42] died: endrxlol's Zombie Minion burned to death
+[04Mar2026 22:20:03.587] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['endrxlol's Zombie Minion'/10073, l='ServerLevel[world]', x=289.34, y=64.00, z=-1135.01] died: endrxlol's Zombie Minion burned to death
+[04Mar2026 22:20:06.035] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['endrxlol's Zombie Minion'/10077, l='ServerLevel[world]', x=289.38, y=64.00, z=-1138.46] died: endrxlol's Zombie Minion burned to death
+[04Mar2026 22:20:09.786] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['endrxlol's Zombie Minion'/10085, l='ServerLevel[world]', x=290.44, y=64.00, z=-1138.60] died: endrxlol's Zombie Minion burned to death
+[04Mar2026 22:20:10.041] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['endrxlol's Zombie Minion'/10098, l='ServerLevel[world]', x=286.54, y=64.88, z=-1141.00] died: endrxlol's Zombie Minion burned to death
+[04Mar2026 22:20:14.135] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['endrxlol's Zombie Minion'/10106, l='ServerLevel[world]', x=287.09, y=64.88, z=-1140.45] died: endrxlol's Zombie Minion burned to death
+[04Mar2026 22:20:14.391] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['endrxlol's Zombie Minion'/10091, l='ServerLevel[world]', x=296.57, y=64.00, z=-1137.51] died: endrxlol's Zombie Minion burned to death
+[04Mar2026 22:20:19.088] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['endrxlol's Zombie Minion'/10120, l='ServerLevel[world]', x=288.22, y=65.00, z=-1140.85] died: endrxlol's Zombie Minion burned to death
+[04Mar2026 22:20:20.236] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['endrxlol's Zombie Minion'/10128, l='ServerLevel[world]', x=295.48, y=64.00, z=-1138.52] died: endrxlol's Zombie Minion burned to death
+[04Mar2026 22:31:44.626] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: endrxlol has made the advancement [The More You Know!]
+[04Mar2026 22:41:10.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: endrxlol has made the advancement [Arcane Appraisal]
+[04Mar2026 22:49:49.816] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=254, y=72, z=-1108} BlockPos{x=255, y=71, z=-1109}
+[04Mar2026 22:51:20.988] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: endrxlol lost connection: Disconnected
+[04Mar2026 22:51:20.989] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: endrxlol left the game
